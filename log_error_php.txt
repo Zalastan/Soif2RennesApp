@@ -311,3 +311,133 @@ Stack trace:
 #2 {main}
   thrown in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 13
 [23-Dec-2015 14:46:53 Europe/Berlin] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 21
+[23-Dec-2015 21:25:36 Europe/Berlin] PHP Fatal error:  Cannot redeclare class DBFactory in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 10
+[23-Dec-2015 21:26:19 Europe/Berlin] PHP Fatal error:  Call to undefined function listallbars() in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 22
+[23-Dec-2015 21:27:22 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[23-Dec-2015 21:31:30 Europe/Berlin] PHP Notice:  Undefined property: BarsList::$_db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 12
+[23-Dec-2015 21:31:30 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 12
+[23-Dec-2015 21:32:03 Europe/Berlin] PHP Notice:  Undefined property: BarsList::$_db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 12
+[23-Dec-2015 21:32:03 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 12
+[23-Dec-2015 21:32:37 Europe/Berlin] PHP Notice:  Undefined property: BarsList::$_db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 12
+[23-Dec-2015 21:32:37 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 12
+[23-Dec-2015 21:33:23 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 13
+[23-Dec-2015 21:35:51 Europe/Berlin] PHP Fatal error:  Cannot redeclare class DBFactory in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 10
+[23-Dec-2015 21:37:21 Europe/Berlin] PHP Warning:  class_exists() expects parameter 1 to be string, object given in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 2
+[23-Dec-2015 21:37:21 Europe/Berlin] PHP Fatal error:  Cannot redeclare class DBFactory in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 10
+[23-Dec-2015 21:37:49 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 21:40:02 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 21:40:54 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 21:43:02 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:20:04 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:29:48 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:30:28 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:31:30 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:32:16 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:33:21 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:33:51 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[23-Dec-2015 22:35:34 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 18:37:16 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 18:40:11 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 18:40:54 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 18:43:24 Europe/Berlin] PHP Fatal error:  Using $this when not in object context in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:44:36 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:44:36 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:45:47 Europe/Berlin] PHP Fatal error:  Call to undefined method DBFactory::query() in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:48:52 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:48:52 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:49:27 Europe/Berlin] PHP Warning:  PDO::__construct() expects at least 1 parameter, 0 given in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 18
+[29-Dec-2015 18:49:27 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:49:27 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 74
+[29-Dec-2015 18:51:45 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 18:56:23 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 18:56:23 Europe/Berlin] PHP Fatal error:  Cannot access empty property in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 18:57:37 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 18:57:37 Europe/Berlin] PHP Fatal error:  Cannot access empty property in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 18:58:18 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 18:58:18 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 18:59:46 Europe/Berlin] PHP Fatal error:  Call to undefined method DBFactory::query() in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 19:03:15 Europe/Berlin] PHP Fatal error:  Call to undefined method DBFactory::query() in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 19:03:58 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[29-Dec-2015 19:03:58 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[29-Dec-2015 19:59:55 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[29-Dec-2015 19:59:55 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[29-Dec-2015 20:02:13 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 20
+[29-Dec-2015 20:02:13 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 20
+[29-Dec-2015 20:02:13 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[29-Dec-2015 20:02:13 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[29-Dec-2015 20:03:35 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 20
+[29-Dec-2015 20:03:35 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 20
+[29-Dec-2015 20:03:35 Europe/Berlin] PHP Fatal error:  Call to undefined method DBFactory::query() in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 18
+[29-Dec-2015 20:03:54 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 20
+[29-Dec-2015 20:03:54 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 20:03:54 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 20:05:57 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 20
+[29-Dec-2015 20:05:57 Europe/Berlin] PHP Notice:  Undefined variable: _db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 20:05:57 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 20:09:36 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/DBFactory.php on line 20
+[29-Dec-2015 20:09:36 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:09:36 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:09:54 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:09:54 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:18:03 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 20:18:03 Europe/Berlin] PHP Fatal error:  Call to a member function query() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 20:18:51 Europe/Berlin] PHP Fatal error:  Call to undefined method DBFactory::query() in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 17
+[29-Dec-2015 20:20:46 Europe/Berlin] PHP Fatal error:  Class 'DBFactory' not found in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 15
+[29-Dec-2015 20:21:10 Europe/Berlin] PHP Notice:  Undefined variable: query in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:21:10 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:21:40 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on string in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:21:52 Europe/Berlin] PHP Notice:  Undefined index: id_bar in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:21:52 Europe/Berlin] PHP Notice:  Undefined index: bar in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:21:52 Europe/Berlin] PHP Fatal error:  Call to a member function fetchAll() on string in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:22:32 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on string in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:28:46 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on boolean in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:28:56 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on string in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:31:17 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on string in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 15
+[29-Dec-2015 20:38:28 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on string in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:39:11 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on string in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 16
+[29-Dec-2015 20:40:55 Europe/Berlin] PHP Notice:  Undefined variable: resultat in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 76
+[29-Dec-2015 20:40:55 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on null in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 76
+[29-Dec-2015 20:41:49 Europe/Berlin] PHP Notice:  Undefined variable: resultat in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 76
+[29-Dec-2015 20:41:49 Europe/Berlin] PHP Fatal error:  Call to a member function fetch() on null in /home/sebastien/Sites/AppSoif2Rennes/insertion.php on line 76
+[29-Dec-2015 21:10:10 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/sebastien/Sites/AppSoif2Rennes/addBar.php on line 62
+[29-Dec-2015 21:10:10 Europe/Berlin] PHP Notice:  Undefined index: adresse in /home/sebastien/Sites/AppSoif2Rennes/addBar.php on line 63
+[29-Dec-2015 21:10:10 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:10:10 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:10:16 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/sebastien/Sites/AppSoif2Rennes/addBar.php on line 62
+[29-Dec-2015 21:10:16 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:10:16 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/sebastien/Sites/AppSoif2Rennes/addBar.php on line 62
+[29-Dec-2015 21:12:14 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:12:14 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:12:20 Europe/Berlin] PHP Notice:  Undefined index: nom in /home/sebastien/Sites/AppSoif2Rennes/addBar.php on line 62
+[29-Dec-2015 21:12:20 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:12:20 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:14:43 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:14:43 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 21
+[29-Dec-2015 21:16:27 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:16:27 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:16:33 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:16:33 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:17:20 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:17:20 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:19:21 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:19:21 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:19:26 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:19:26 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:20:11 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:20:11 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:20:16 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:20:16 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:22:49 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:22:49 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:22:55 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:22:55 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:24:04 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:24:04 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:24:15 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:24:15 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:24:59 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:24:59 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:25:08 Europe/Berlin] PHP Notice:  Undefined variable: bdd in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[29-Dec-2015 21:25:08 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in /home/sebastien/Sites/AppSoif2Rennes/libraries/BarsList.class.php on line 20
+[05-Jan-2016 13:57:57 Europe/Berlin] PHP Notice:  Use of undefined constant e_all - assumed 'e_all' in /home/sebastien/Sites/AppSoif2Rennes/test.php on line 8

@@ -1,3 +1,9 @@
+<?php
+session_start ();
+include 'libraries/User.class.php';
+include 'libraries/Alert.class.php';
+include 'libraries/Template.class.php';
+?>
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr" class="uk-height-1-1">
 
@@ -8,40 +14,42 @@
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon-precomposed"
 	href="images/apple-touch-icon.png">
-<link rel="stylesheet" href="css/uikit.min.css">
+<link rel="stylesheet" href="css/uikit.gradient.min.css">
+<link rel="stylesheet" href="css/components/notify.gradient.min.css">
 <script src="vendor/jquery.min.js"></script>
 <script src="js/uikit.min.js"></script>
+<script type="text/javascript" src="js/components/notify.min.js"></script>
 </head>
 
 <body class="uk-height-1-1">
-
-	<div class="uk-vertical-align uk-text-center uk-align-center uk-height-1-1">
-		<div class="uk-vertical-align-middle">
-
-			<img class="uk-margin-bottom" width="140" height="120"
-				src="images/logos/logo_soif2rennes.png" alt="Logo soif de Rennes">
-
-			<form class="uk-panel uk-panel-box uk-align-center uk-text-center uk-form">
-				<div class="uk-form-row">
-					<input class="uk-width-1-1 uk-form-large uk-text-center" type="text"
-						placeholder="Identifiant">
-				</div>
-				<div class="uk-form-row">
-					<input class="uk-width-1-1 uk-form-large uk-text-center" type="text"
-						placeholder="Mot de passe">
-				</div>
-				<div class="uk-form-row">
-					<a class="uk-width-1-1 uk-button uk-button-primary uk-button-large"
-						href="#">Connexion</a>
-				</div>
-				<div class="uk-form-row uk-text-small">
-					<a class="uk-float-right uk-link uk-link-muted" href="#">Mot de passe oublié ?</a>
-				</div>
-			</form>
-
-		</div>
-	</div>
-
+	<?php
+	$content_html = new Template ();
+	$content_html->displayConnexionScreen ();
+	
+	if (isset ( $_POST ["connexion"] )) {
+		if (! empty ( $_POST ['username'] ) && ! empty ( $_POST ['password'] )) {
+			$username = htmlspecialchars ( $_POST ['username'] );
+			$password = htmlspecialchars ( $_POST ['password'] );
+			$action = new User ();
+			$passwordFromDB = $action::getPassword ( $username );
+			$id = $action::getIdUser ( $username );
+			if (password_verify ( $password, $passwordFromDB )) {
+				$alert = new Alert ();
+				echo $alert->displayConnexionSuccess ();
+				$_SESSION ['id'] = $id;
+				$_SESSION ['access'] = $action::getAccess ( $username );
+				$action = new User ();
+				$_SESSION ['username'] = $action->getUsername ( $_SESSION ['id'] );
+				header ( 'Refresh: 1;url=admin.php' );
+			} else {
+				$alert = new Alert ();
+				echo $alert->displayConnexionError ();
+			}
+		} else {
+			$alert = new Alert ();
+			echo $alert->displayConnexionError ();
+		}
+	}
+	?>
 </body>
-
 </html>
